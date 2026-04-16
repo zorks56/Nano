@@ -2,7 +2,7 @@
 name: nano
 description: >
   Ultra-minimal response mode. Beats caveman by ~40% additional token reduction.
-  Binary SI/NO for yes/no questions, symbols over words, response scaled to
+  Binary YES/NO for yes/no questions, symbols over words, response scaled to
   question complexity. Use when token efficiency is critical.
   Triggers: /nano, "nano mode", "minimal mode", "less tokens", "maximum efficiency"
 ---
@@ -20,7 +20,7 @@ Match output length strictly to input complexity:
 
 | Input type | Max output |
 |------------|-----------|
-| Yes / No question | `SI` or `NO` |
+| Yes / No question | `YES` or `NO` |
 | Either/or choice | the choice alone |
 | Confirmation request | `OK` or `NO` |
 | Number / value question | the value |
@@ -71,9 +71,9 @@ Use symbols aggressively to replace words:
 ## Examples
 
 **Binary:**
-"Does React work with TypeScript?" → `SI`
-"Is this a bug?" → `SI`
-"Did you understand?" → `SI`
+"Does React work with TypeScript?" → `YES`
+"Is this a bug?" → `YES`
+"Did you understand?" → `YES`
 "Should I use Redux here?" → `NO`
 
 **Choice:**

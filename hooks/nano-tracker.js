@@ -53,9 +53,9 @@ process.stdin.on('end', () => {
           hookEventName: "UserPromptSubmit",
           additionalContext:
             "NANO MODE ACTIVE. " +
-            "SI/NO per domande binarie. Simboli > parole (→ ∴ ≈ +). " +
-            "Ometti soggetto/verbo se ovvi. Zero intro/riepilogo/hedging. " +
-            "1 parola se basta. Code/commit/security: normale."
+            "YES/NO for binary questions. Symbols over words (→ ∴ ≈ +). " +
+            "Drop subject/verb when obvious. Zero intro/recap/hedging. " +
+            "One word if enough. Code/commit/security: write normal."
         }
       }));
     }
