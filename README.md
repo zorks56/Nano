@@ -1,8 +1,10 @@
+![Nano](assets/nano-banner.png)
+
 # nano — ultra-minimal Claude Code mode
 
 **~85% token reduction.** Beats caveman.
 
-- Binary questions → `SI` / `NO`
+- Binary questions → `YES` / `NO`
 - Symbols over words: `→` `∴` `≈` `+`
 - Subject/verb dropped when obvious
 - Response scaled to question complexity
@@ -12,7 +14,7 @@
 
 | Normal | Nano |
 |--------|------|
-| "Sure! React works great with TypeScript." | `SI` |
+| "Sure! React works great with TypeScript." | `YES` |
 | "You should probably use async/await here." | `async/await` |
 | "The component re-renders because you create a new object reference each render. You should wrap it in useMemo." | `Inline obj → new ref → re-render. useMemo.` |
 | "I've modified the file as requested. Here is the updated code:" | `[just the code]` |
@@ -31,7 +33,7 @@ Activates automatically every session.
 |---------|--------|
 | `/nano` | activate (already on by default) |
 | `/nano off` | deactivate |
-| `modalità normale` / `normal mode` | deactivate |
+| `normal mode` | deactivate |
 
 Works alongside caveman — both can be active.
 
