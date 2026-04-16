@@ -1,0 +1,34 @@
+{
+  "name": "nano",
+  "description": "Ultra-minimal response mode. SI/NO for binary questions, symbols over words, response scaled to complexity. ~85% token reduction vs normal, beats caveman.",
+  "author": {
+    "name": "pjlln94410527",
+    "url": "https://github.com/pjlln94410527"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/nano-activate.js\"",
+            "timeout": 5,
+            "statusMessage": "Loading nano mode..."
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/nano-tracker.js\"",
+            "timeout": 5,
+            "statusMessage": "nano..."
+          }
+        ]
+      }
+    ]
+  }
+}
