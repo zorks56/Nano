@@ -20,7 +20,7 @@
 ## Install
 
 ```bash
-claude plugin install github:YOUR_USERNAME/nano
+claude plugin install github:zorks56/nano
 ```
 
 ## Usage

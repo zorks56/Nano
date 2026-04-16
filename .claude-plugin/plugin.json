@@ -2,8 +2,8 @@
   "name": "nano",
   "description": "Ultra-minimal response mode. SI/NO for binary questions, symbols over words, response scaled to complexity. ~85% token reduction vs normal, beats caveman.",
   "author": {
-    "name": "pjlln94410527",
-    "url": "https://github.com/pjlln94410527"
+    "name": "zorks56",
+    "url": "https://github.com/zorks56"
   },
   "hooks": {
     "SessionStart": [
