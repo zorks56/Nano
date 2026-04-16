@@ -21,8 +21,19 @@
 
 ## Install
 
+**Via Claude Code plugin system:**
 ```bash
 claude plugin install github:zorks56/nano
+```
+
+**Via npm:**
+```bash
+npm install -g claude-plugin-nano
+```
+
+**Via npx (no install):**
+```bash
+npx claude-plugin-nano
 ```
 
 ## Usage

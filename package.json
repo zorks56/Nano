@@ -1,0 +1,28 @@
+{
+  "name": "claude-plugin-nano",
+  "version": "1.0.0",
+  "description": "Ultra-minimal Claude Code mode. ~85% token reduction. YES/NO for binary questions, symbols over words.",
+  "keywords": ["claude", "claude-code", "plugin", "token", "efficiency", "minimal"],
+  "author": "zorks56",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zorks56/Nano.git"
+  },
+  "homepage": "https://github.com/zorks56/Nano#readme",
+  "bin": {
+    "claude-plugin-nano": "./install.js"
+  },
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "files": [
+    "install.js",
+    "hooks/",
+    "skills/",
+    "assets/"
+  ],
+  "engines": {
+    "node": ">=16"
+  }
+}
